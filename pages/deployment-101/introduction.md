@@ -52,18 +52,15 @@ What we will cover today?
     * Database
     * File Storage
     * AI Inference
-* Build a Working Stack with Docker Compose
-    * Hands-On Activity 1
-    * Container Services vs. External Services
 
 ---
 
 # Agenda
 What we will cover today?
 
-* Secure the Deployment with HTTPS
-    * Gotcha: Made for Development, Requires HTTPS
-    * Hands-On Activity 2
-* Go Production
+* Build a Working Stack with Docker Compose
+    * Hands-On Activity
+    * Container Services vs. External Services
+* Going Production
     * Common Issues and Fixes
 * The 102 Plan

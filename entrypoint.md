@@ -8,6 +8,7 @@ keywords: deployment,ISP
 download: true
 export:
     format: pdf
+    withToc: false
 twoslash: false
 lineNumbers: false
 monaco: false
@@ -20,6 +21,7 @@ drawings:
 fonts:
     sans: Inter
     mono: Fira Code
+mdc: true
 ---
 
 # Deployment 101
@@ -45,4 +47,12 @@ src: ./pages/deployment-101/cloud-services.md
 
 ---
 src: ./pages/deployment-101/docker-compose.md
+---
+
+---
+src: ./pages/deployment-101/production.md
+---
+
+---
+src: ./pages/deployment-101/next-session.md
 ---

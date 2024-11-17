@@ -83,8 +83,6 @@ Choose how to host your application before deploying.
 
 Example use cases: Web applications, Software as a service, Serverless computing
 
-*We'll likely tackle this approach!*
-
 ---
 
 # Domain Names
