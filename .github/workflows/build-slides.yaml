@@ -17,6 +17,11 @@ jobs:
       - name: Enable corepack
         run: corepack enable
         # This step enables corepack so yarn 4 could be installed
+      - name: Setup emojis
+        run: |
+          curl -L --output NotoColorEmoji.ttf https://github.com/googlefonts/noto-emoji/raw/refs/heads/main/fonts/NotoColorEmoji.ttf
+          mv NotoColorEmoji.ttf /usr/local/share/fonts
+          fc-cache -fv
       - name: Ensure dependencies
         run: yarn install --immutable
       - name: Build slides PDF

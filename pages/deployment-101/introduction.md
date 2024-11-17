@@ -53,8 +53,8 @@ What we will cover today?
     * File Storage
     * AI Inference
 * Build a Working Stack with Docker Compose
-    * Container Services vs. External Services
     * Hands-On Activity 1
+    * Container Services vs. External Services
 
 ---
 

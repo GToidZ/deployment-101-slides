@@ -96,3 +96,10 @@ always have one or more IP addresses. To aid users in finding the correct server
 Domain names always require money to even get started. *("free" never meant free)*
 
 So, your final project isn't required to have a customized domain name.
+
+---
+layout: center
+---
+
+# 12-Factor App
+[Reference slide](https://docs.google.com/presentation/d/1nO6cQBjoavqjNY3p7tnP-Gu9el231g_y/edit?usp=sharing&ouid=112038110271235589258&rtpof=true&sd=true)

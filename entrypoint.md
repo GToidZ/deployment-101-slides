@@ -34,3 +34,15 @@ src: ./pages/deployment-101/introduction.md
 ---
 src: ./pages/deployment-101/concepts.md
 ---
+
+---
+src: ./pages/deployment-101/paas.md
+---
+
+---
+src: ./pages/deployment-101/cloud-services.md
+---
+
+---
+src: ./pages/deployment-101/docker-compose.md
+---
