@@ -1,7 +1,6 @@
 on:
   push:
     paths:
-      - '.github/workflows/build-slides.yaml'
       - 'entrypoint.md'
       - 'pages/**.md'
 
@@ -10,9 +9,9 @@ jobs:
     runs-on: ubuntu-latest
     name: Build Slides PDF
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
       - name: Setup Node.js version 20
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
         with:
           node-version: 20
       - name: Enable corepack
