@@ -17,7 +17,16 @@ colorSchema: light
 drawings:
     enabled: true
     persist: false
+fonts:
+    sans: Inter
+    mono: Fira Code
 ---
 
 # Deployment 101
-Time to get your project online!
+a.k.a. Getting your project online!
+
+Pawitchaya Chaloeijanya (KU81, SKE19, former DevOps Engineer Intern)
+
+---
+src: ./pages/deployment-101/introduction.md
+---

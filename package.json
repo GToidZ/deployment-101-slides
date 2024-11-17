@@ -3,13 +3,16 @@
   "type": "module",
   "private": true,
   "scripts": {
-    "build": "slidev build",
     "dev": "slidev --open ./entrypoint.md",
-    "export": "slidev export"
+    "export": "slidev export ./entrypoint.md"
   },
   "dependencies": {
     "@slidev/cli": "^0.50.0-beta.6",
     "@slidev/theme-default": "latest",
     "vue": "^3.5.12"
+  },
+  "packageManager": "yarn@4.5.1",
+  "devDependencies": {
+    "playwright-chromium": "^1.48.2"
   }
 }
