@@ -1,6 +1,7 @@
 on:
   push:
     paths:
+      - '.github/workflows/build-slides.yaml'
       - 'entrypoint.md'
       - 'pages/**.md'
 
@@ -23,7 +24,7 @@ jobs:
         id: buildpdf
         run: |
           OUTFILE=deployment-101_$(date +%F_%H-%M-%S).pdf
-          yarn export -- --output $OUTFILE
+          yarn export -- --output="$OUTFILE"
           echo "outfile=$OUTFILE" >> $GITHUB_OUTPUT
       - name: Upload slides
         uses: actions/upload-artifact@v4
